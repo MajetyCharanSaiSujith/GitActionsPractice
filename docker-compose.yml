@@ -3,7 +3,7 @@ services:
     image: mysql:8
     container_name: mysqldb
     environment:
-      MYSQL_ROOT_PASSWORD: docker
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: examdb205
     ports:
       - "3307:3306"
